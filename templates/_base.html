@@ -8,6 +8,9 @@
 <body>
     <header>
         <a href="{% url 'post-list' %}"><h1>Mi Blog</h1></a>
+        <nav>
+            <a href="{% url 'post-create' %}">Nueva publicación</a>
+        </nav>
     </header>
     {% block content %}
     {% endblock content %}
