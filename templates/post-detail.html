@@ -7,4 +7,5 @@
     <div>
         {{ blog.content }}
     </div>
+    <a href="{% url 'post-update' blog.pk %}">Editar publicación</a>
 {% endblock content %}
